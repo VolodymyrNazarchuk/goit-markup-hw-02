@@ -58,10 +58,8 @@ address{
     color: #404bbf;
 }
 .visually-hidden {
-    clip-path: inset(50%);
     height: 1px;
     overflow: hidden;
-    position: absolute;
     white-space: nowrap;
     width: 1px;
   }
@@ -155,9 +153,10 @@ address{
     
 }
 .team-item {
-    background-color:#FFFFFF;
+   
 }
 .team-image {
+    background-color:#FFFFFF;
 }
 
 .team-subtitle {
