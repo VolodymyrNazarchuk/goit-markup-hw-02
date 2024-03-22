@@ -52,19 +52,27 @@ address{
 .header-menu-link:focus {
     color: #404bbf;
 }
-.header-contacts-link:hover,
-.header-contacts-link:active,
-.header-contacts-link:focus{
+.contacts-link:hover,
+.contacts-link:active,
+.contacts-link:focus{
     color: #404bbf;
 }
+.visually-hidden {
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
 
 
-.header-contacts {
+.contacts {
 }
 
-.header-contacts-list {
+.contacts-list {
 }
-.header-contacts-link{
+.contacts-link{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -144,7 +152,7 @@ address{
     color: #2e2f42;
 }
 .team-list {
-    background-color:#404BBF;
+    background-color:#FFFFFF;
 }
 .team-item {
 }
@@ -154,7 +162,7 @@ address{
 .team-subtitle {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.11;
+    line-height: 1.12;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
