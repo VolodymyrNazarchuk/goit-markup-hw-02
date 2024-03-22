@@ -57,13 +57,6 @@ address{
 .contacts-link:focus{
     color: #404bbf;
 }
-.visually-hidden {
-    height: 1px;
-    overflow: hidden;
-    white-space: nowrap;
-    width: 1px;
-  }
-
 
 .contacts {
 }
@@ -156,7 +149,7 @@ address{
    
 }
 .team-image {
-    background-color:#FFFFFF;
+     background-color:#FFFFFF;
 }
 
 .team-subtitle {
