@@ -13,6 +13,7 @@ ul{
 address{
     font-style: normal;
 }
+
 .header-nav {
 }
 
@@ -142,14 +143,15 @@ address{
     text-transform: capitalize;
     color: #2e2f42;
 }
-.team-list {
+.team-list { 
     
 }
 .team-item {
-   
-}
-.team-image {
      background-color:#FFFFFF;
+}
+
+.team-image {
+    
 }
 
 .team-subtitle {
