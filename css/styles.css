@@ -1,5 +1,6 @@
 body{
     font-family: "Roboto", sans-serif;
+    color: #434455;
     background-color: #fff;
 }
 
@@ -9,10 +10,14 @@ a{
 ul{
     list-style-type: none;
 }
+address{
+    font-style: normal;
+}
 .header-nav {
 }
 
 .logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -77,7 +82,7 @@ ul{
 .solution-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -95,7 +100,7 @@ ul{
 }
 .solution-btn:hover,
 .solution-btn:focus{
-    border-color: #404bbf;
+    background-color: #404BBF;
 }
 
 .advantages{
@@ -132,12 +137,14 @@ ul{
 .team-header {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 .team-list {
+    background-color:#404BBF;
 }
 .team-item {
 }
@@ -147,7 +154,7 @@ ul{
 .team-subtitle {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -167,10 +174,11 @@ ul{
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
-l   etter-spacing: 0.02em;
-t   ext-align: center;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 .portfolio-list {
 }
